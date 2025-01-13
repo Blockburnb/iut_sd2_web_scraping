@@ -1,4 +1,4 @@
-# web scraping Binance trading bot
+# Web scraping Binance trading bot
 
 ## Contexte et objectif
 
