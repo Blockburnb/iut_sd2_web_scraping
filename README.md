@@ -1,4 +1,4 @@
-# iut_sd2_web_scraping
+# web scraping Binance trading bot
 
 ## Contexte et objectif
 
