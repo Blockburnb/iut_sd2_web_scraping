@@ -6,7 +6,7 @@ Le but de notre programme est de faire du trading à « haute fréquence ». Ici
 
 Voici un extrait du cour, le but est de prendre une décision à chaque changement du cour pour faire des petits profits mais un grand nombre de fois.
 
- img
+![cour_USDC_USDT](cour_USDC_USDT.png)
 
 Le challenge de ce projet et d’agir vite, il faut récupérer le cour, calculer notre indicateur, prendre la décision, envoyé un ordre de vente ou d’achat en fonction de cette indicateur.
 
