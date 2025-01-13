@@ -42,3 +42,7 @@ La version actuelle du programme est plutôt simpliste, on profite de la faible 
 Dans d’autre conditions (plusieurs cour à suivre, possibilité d’échange plus fréquent, connexion lente, indicateur sur une plus grande quantité de données,…) il serait nécessaire d’optimiser ce programme en explorant les réflexions poser au cour de ce dossier.
 
 ## Rapport
+
+
+
+> Git by Franklin et Titouan
