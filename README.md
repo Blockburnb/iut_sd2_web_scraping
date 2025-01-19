@@ -29,7 +29,7 @@ On a 2 scénarios possible :
 + Si on a un ordre actif, on compare le prix d’achat et le cour, on va alors vendre si le cour est plus haut que notre prix d’achat. On réalise alors nos profits.
 
 ### Stockage
-On va écrire dans le fichier `BinanceTradingDataTest1.csv` la date, l’heure, le cour, l’indicateur, l’ordre. On a choisi un `.csv` car la manipulation de ce type de format de fichier est natif à java et donc plus rapide à l’exécution. Dans le dossier [outpout](oupout), on peut trouver plusieurs exemples de fichiers générés avec le programme, pendant différentes périodes et sur une autre paire de cryptomonnaies.
+On va écrire dans le fichier `BinanceTradingDataTest1.csv` la date, l’heure, le cour, l’indicateur, l’ordre. On a choisi un `.csv` car la manipulation de ce type de format de fichier est natif à java et donc plus rapide à l’exécution. Dans le dossier [output](output), on peut trouver plusieurs exemples de fichiers générés avec le programme, pendant différentes périodes et sur une autre paire de cryptomonnaies.
 
 ### Sleep
 Au début de la boucle on stock l’heure actuelle, on va ensuite déterminer le temps d’attente grâce au delta à la fin de la boucle. On passe par là plutôt qu’un temps fixe car le délai de réponse du site est variable et la bibliothèque étant synchrone, le programme attend la réponse avant de continuer son exécution. Cette méthode est plus lente et est susceptible de bloquer le programme en cas de site inaccessible contrairement à une bibliothèque asynchrone, mais cette méthode est plus simple à utiliser.
