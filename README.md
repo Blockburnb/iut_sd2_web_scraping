@@ -42,6 +42,13 @@ La version actuelle du programme est plutôt simpliste, on profite de la faible 
 Dans d’autre conditions (plusieurs cour à suivre, possibilité d’échange plus fréquent, connexion lente, indicateur sur une plus grande quantité de données,…) il serait nécessaire d’optimiser ce programme en explorant les réflexions poser au cour de ce dossier.
 
 ## [Rapport](Rapport.xlsm)
+Le rapport ( lien dans le titre "Rapport" ) montre les principaux indicateurs du bot de trading, la rentabilité, le nombre d'action, la durée d'exécution etc ... 
+On peut tout d'abord ajouter le csv généré à partir du code java en appuyant sur le bouton "Importer CSV" puis en choisissant le fichier en question, les formules se mettent à jour automatiquement. 
+Il est possible de faire des tests de rentabilités pour n'importe quelle somme investi en changeant la valeur de "Montant investi".
+Un graphique montre l'évolution du retour sur investissement sur toute la durée d'exécution du programme avec une courbe de tendance qui permet de visualiser l'évolution générale. Étant donné qu'il y a un trop grand nombre de valeur pour un faire un graphique il faut déterminer un pas d'échantillonage (600 à la base), il est modifiable en changeant le valeur dans "Prendre une valeur toute les" ( plus le nombre est grand moins il y aura de données prises en compte pour le graphique ).
+La feuille "Data" montre simplement le CSV importé.
+
+D'un point de vue critique le fichier excel ne peut accueillir que des exécutions de programme de 12h ou moins ( la limite peut être repoussées mais ça influrait sur les performance du fichier ). De part le faible nombre de variables exploitables il y a peu de données à faire ressortir et donc celles qu'on a sont poussés sur la valeur de la monnaie et le temps. Le grand nombre de lignes rend le fait d'avoir plusieurs graphiques difficiles car il faut faire plusieurs filtres sur les données pour avoir une quantités de données prises assez faible pour en faire un graphique. Le excel est supposé être facile à comprendre afin de pouvoir faciliter l'appréciation des performances du bot.
 
 
 
