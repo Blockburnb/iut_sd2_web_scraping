@@ -41,7 +41,7 @@ Le nombre d’itération de la boucle est choisi par l’utilisateur au lancemen
 La version actuelle du programme est plutôt simpliste, on profite de la faible quantité de donnée à gérer et de la performance des outils actuelle pour rentrer dans son objectif.
 Dans d’autre conditions (plusieurs cour à suivre, possibilité d’échange plus fréquent, connexion lente, indicateur sur une plus grande quantité de données,…) il serait nécessaire d’optimiser ce programme en explorant les réflexions poser au cour de ce dossier.
 
-## Rapport
+## ![Rapport](Rapport.xlsm)
 
 
 
